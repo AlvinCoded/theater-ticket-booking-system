@@ -1,0 +1,21 @@
+id,Name,Run Time,Categories,Venue,Age,Price,Available Tickets,Available Days
+1,Phantom of the Opera,2h 45m,Musicals,Her Majesty's Theatre,10+,25,1000,"Monday,Tuesday,Friday"
+2,Hamilton,2h 40m,Musicals,Victoria Palace Theatre,12+,29,1000,"Monday,Wednesday,Thursday"
+3,Wicked,2h 50m,Musicals,Apollo Victoria Theatre,10+,27,1000,"Sunday,Wednesday,Saturday"
+4,The Book of Mormon,2h 20m,Comedy Musicals,Prince of Wales Theatre,15+,30,1000,"Saturday,Tuesday,Friday"
+5,Aladdin,2h 35m,Disney Shows,Prince Edward Theatre,6+,18,1000,"Thursday,Friday"
+6,Matilda the Musical,2h 40m,Family Shows,Cambridge Theatre,7+,22,1000,Thursday
+7,Harry Potter and the Cursed Child,5h 15m,Plays,Palace Theatre,10+,35,1000,Sunday
+8,Mamma Mia!,2h 35m,Musicals,Novello Theatre,8+,20,1000,Monday
+9,The Lion King,2h 45m,Disney Shows,Lyceum Theatre,6+,28,1000,"Tuesday,Friday"
+10,The Curious Incident of the Dog in the Night-Time,2h 30m,Plays,Gielgud Theatre,10+,23,1000,"Monday,Friday"
+11,The Play That Goes Wrong,2h 05m,Comedy,Duchess Theatre,10+,19,1000,Friday
+12,Chicago,2h 30m,Musicals,Phoenix Theatre,12+,25,1000,"Saturday,Sunday"
+13,Dreamgirls,2h 45m,Musicals,Savoy Theatre,12+,24,1000,"Monday,Tuesday,Friday"
+14,The Mousetrap,2h 15m,Mystery,St. Martin's Theatre,12+,20,1000,"Monday,Tuesday,Friday"
+15,School of Rock,2h 30m,Musicals,Gillian Lynne Theatre,10+,21,1000,"Monday,Tuesday,Wednesday"
+16,Waitress,2h 30m,Musicals,Adelphi Theatre,14+,26,1000,"Monday,Tuesday,Saturday"
+17,Tina: The Tina Turner Musical,2h 45m,Musicals,Aldwych Theatre,12+,30,1000,"Monday,Tuesday,Thursday"
+18,Come From Away,1h 40m,Musicals,Phoenix Theatre,10+,22,1000,"Monday,Tuesday,Sunday"
+19,Six,1h 20m,Musicals,Vaudeville Theatre,10+,28,1000,"Monday,Wednesday,Sunday"
+20,Dear Evan Hansen,2h 30m,Musicals,Noël Coward Theatre,14+,31,1000,Saturday
