@@ -29,12 +29,12 @@ A comprehensive Java-based desktop application for booking musical theater ticke
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/AlvinCoded/java-ticket-booking-system.git
+git clone https://github.com/AlvinCoded/theater-ticket-booking-system.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd java-ticket-booking-system
+cd theater-ticket-booking-system
 ```
 
 3. Set up MySQL Database:
