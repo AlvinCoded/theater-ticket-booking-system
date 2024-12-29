@@ -25,65 +25,6 @@ A comprehensive Java-based desktop application for booking musical theater ticke
 - MySQL Server 8.0 or higher
 - MySQL Connector/J JDBC Driver
 
-## 📦 Installation (Follow carefully)
-
-1. Clone the repository:
-```bash
-git clone https://github.com/AlvinCoded/theater-ticket-booking-system.git
-```
-
-2. Navigate to the project directory:
-```bash
-cd theater-ticket-booking-system
-```
-
-3. Set up MySQL Database:
-
-Import `musical_tickets.sql` into to database.
-
-4. Add MySQL Connector and the other required JARs to project:
-- Download MySQL Connector/J, JCommon, JDatePicker, Joda Time and JFreeChart from their official websites
-- Create a `lib` folder in the project root
-- Place the `mysql-connector-java-*.jar`, `jcommon-*.jar`, `jdatepicker-*.jar`, `joda-time-*.jar` and `jfreechart-*`,  in the `lib` folder
-
-5. Configure database connection:
-- Open MusicalDataHandler.java
-- Update the following constants with your MySQL credentials:
-```java
-private static final String DB_URL = "jdbc:mysql://localhost:3306/musical_tickets";
-private static final String USER = "your_username";
-private static final String PASS = "your_password";
-```
-
-6. Compile and run the application:
-```bash
-javac -cp "lib/*:." FinalGUI.java
-java -cp "lib/*:." FinalGUI
-```
-
-For Windows, use semicolons instead of colons:
-```bash
-javac -cp "lib/*;." FinalGUI.java
-java -cp "lib/*;." FinalGUI
-```
-
-## Some IDE-Specific Setup
-<i>Repeat these steps for the other required library JARs</i>
-### Eclipse
-1. Right-click on project → Properties → Java Build Path
-2. Click "Add External JARs"
-3. Navigate to lib folder and select mysql-connector-java-*.jar
-
-### IntelliJ IDEA
-1. File → Project Structure → Libraries
-2. Click + → Java
-3. Navigate to lib folder and select mysql-connector-java-*.jar
-
-### NetBeans
-1. Right-click on project → Properties → Libraries → Add JAR/Folder
-2. Navigate to lib folder and select mysql-connector-java-*.jar
-
-
 ## 🎯 Future Enhancements
 <i>In this section, completed or achieved features so far will be marked with `✔️`</i>
 ### Planned Features
@@ -133,6 +74,62 @@ java -cp "lib/*;." FinalGUI
    - Ticket cancellation
    - Refund processing
    - Customer service interface
+
+## 📦 Installation (Follow carefully)
+
+1. Clone the repository:
+```bash
+git clone https://github.com/AlvinCoded/theater-ticket-booking-system.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd theater-ticket-booking-system
+```
+
+3. Set up MySQL Database by importing `musical_tickets.sql`.
+
+4. Add MySQL Connector and the other required JARs to project:
+- Download MySQL Connector/J, JCommon, JDatePicker, Joda Time and JFreeChart from their official websites
+- Create a `lib` folder in the project root
+- Place the `mysql-connector-java-*.jar`, `jcommon-*.jar`, `jdatepicker-*.jar`, `joda-time-*.jar` and `jfreechart-*`,  in the `lib` folder
+
+5. Configure database connection:
+- Open MusicalDataHandler.java
+- Update the following constants with your MySQL credentials:
+```java
+private static final String DB_URL = "jdbc:mysql://localhost:3306/musical_tickets";
+private static final String USER = "your_username";
+private static final String PASS = "your_password";
+```
+
+6. Compile and run the application:
+```bash
+javac -cp "lib/*:." FinalGUI.java
+java -cp "lib/*:." FinalGUI
+```
+
+For Windows, use semicolons instead of colons:
+```bash
+javac -cp "lib/*;." FinalGUI.java
+java -cp "lib/*;." FinalGUI
+```
+
+## Some IDE-Specific Setup
+<i>Repeat these steps for the other required library JARs</i>
+### Eclipse
+1. Right-click on project → Properties → Java Build Path
+2. Click "Add External JARs"
+3. Navigate to lib folder and select mysql-connector-java-*.jar
+
+### IntelliJ IDEA
+1. File → Project Structure → Libraries
+2. Click + → Java
+3. Navigate to lib folder and select mysql-connector-java-*.jar
+
+### NetBeans
+1. Right-click on project → Properties → Libraries → Add JAR/Folder
+2. Navigate to lib folder and select mysql-connector-java-*.jar
 
 ## 🤝 Contributing
 
