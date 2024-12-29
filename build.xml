@@ -10,6 +10,39 @@
 <project name="TicketBookingSystem" default="default" basedir=".">
     <description>Builds, tests, and runs the project TicketBookingSystem by AlvinCoded.</description>
     <import file="nbproject/build-impl.xml"/>
+    
+     <property name="src.dir" value="src"/>
+    <property name="build.dir" value="build"/>
+    <property name="lib.dir" value="lib"/>
+    
+    <path id="classpath">
+        <fileset dir="${lib.dir}">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+    
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+    
+    <target name="compile">
+        <mkdir dir="${build.dir}/classes"/>
+        <javac srcdir="${src.dir}" destdir="${build.dir}/classes" includeantruntime="false">
+            <classpath refid="classpath"/>
+        </javac>
+    </target>
+    
+    <target name="run" depends="compile">
+        <java classname="FinalGUI" fork="true">
+            <classpath>
+                <path refid="classpath"/>
+                <pathelement path="${build.dir}/classes"/>
+            </classpath>
+        </java>
+    </target>
+
+
+
     <!--
 
     There exist several targets which are by default empty and which can be 
