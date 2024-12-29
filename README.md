@@ -1,4 +1,4 @@
-# 🎭 Musical Tickets Booking System
+# 🎭 Musical Theater Ticket Booking System
 A comprehensive Java-based desktop application for booking musical theater tickets, featuring an intuitive GUI and robust ticket management system.
 
 ## ✨ Features
