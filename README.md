@@ -20,7 +20,7 @@ A comprehensive Java-based desktop application for booking musical theater ticke
 - **Error handling and user feedback**
 - 
 ## 📸 Screenshots
-<i> Not to worry, this UI will change in due time 😅. Currrently focuisng more on functionality.</i>
+<i> Not to worry, this UI will change in due time 😅. Currrently focusing more on functionality.</i>
 <div align="center">
     <img src="screenshots/customer-home-screen.png" width="400" alt="Musical List View">
     <img src="screenshots/booking-success.png" width="500" alt="Booking Confirmation">
@@ -30,8 +30,6 @@ A comprehensive Java-based desktop application for booking musical theater ticke
     <img src="screenshots/admin-dashboard.png" width="400" alt="Admin Dashboard">
     <img src="screenshots/booking-process.png" width="600" alt="Booking Process">
 </div>
-
-**Caption:** *Top: Customer Home and Booking Success screens. Bottom: Admin Dashboard and Booking Process interfaces*
 
 ## 🛠️ Prerequisites
 - Java Development Kit (JDK) 17 or higher
