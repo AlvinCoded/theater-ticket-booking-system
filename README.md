@@ -18,18 +18,21 @@ A comprehensive Java-based desktop application for booking musical theater ticke
 - **Responsive Swing GUI**
 - **Real-time validation**
 - **Error handling and user feedback**
-- 
+  
 ## 📸 Screenshots
 <i> Not to worry, this UI will change in due time 😅. Currrently focusing more on functionality.</i>
-<div align="center">
-    <img src="screenshots/customer-home-screen.png" width="400" alt="Musical List View">
-    <img src="screenshots/booking-success.png" width="500" alt="Booking Confirmation">
-</div>
 
-<div align="center">
-    <img src="screenshots/admin-dashboard.png" width="400" alt="Admin Dashboard">
-    <img src="screenshots/booking-process.png" width="600" alt="Booking Process">
-</div>
+<details>
+	<summary>View screenshots</summary>
+    <p align="left">
+        <img src="screenshots/customer-home-screen.png" width="400" style="border-radius:50%" alt="Musical List View">
+        <img src="screenshots/booking-success.png" width="500" style="border-radius:50%" alt="Booking Confirmation">
+        <img src="screenshots/admin-dashboard.png" width="400" style="border-radius:50%" alt="Admin Dashboard">
+        <img src="screenshots/booking-process.png" width="600" style="border-radius:50%" alt="Booking Process">
+    </p>
+</details>
+
+<br/>
 
 ## 🛠️ Prerequisites
 - Java Development Kit (JDK) 17 or higher
